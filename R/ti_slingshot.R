@@ -70,7 +70,7 @@ ti_slingshot <- function(
     smoother = "smooth.spline",
     shrink.method = "cosine"
 ) {
-  create_ti_method_container(container_id = "dynverse/ti_slingshot:v1.0.3")(
+  create_ti_method_container(container_id = "dynverse/ti_slingshot:v2.0.1")(
     cluster_method = cluster_method,
     ndim = ndim,
     shrink = shrink,
